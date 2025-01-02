@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yonathan's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Yonathan's Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="section fade-in">
+        <div class="container">
+            <h2>About Me</h2>
+            <img src="imgs/photo_2024-11-14_21-18-23.jpg" alt="Profile Picture">
+            <p>Hello! I'm Yonathan, a biotechnology student at Addis Ababa Science and Technology University. I am passionate about leveraging technology in biology to drive innovation in research and healthcare. My interests include coding, design, and scientific research.</p>
+        </div>
+    </section>
+
+    <section id="skills" class="section fade-in">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>Lab Techniques (PCR, microscopy, etc.)</li>
+                <li>Data Analysis (Python, R)</li>
+                <li>UI/UX Design (Adobe XD, Figma)</li>
+                <li>HTML, CSS, JavaScript</li>
+                <li>Problem-Solving and Critical Thinking</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects" class="section fade-in">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-card">
+                <h3>Project 1: Event Management App</h3>
+                <p>A mobile app design for event management, focusing on user-friendly navigation and engaging visuals.</p>
+                <a href="https://github.com/YonathanTAbebe" class="button">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>Project 2: DNA Sequence Analysis</h3>
+                <p>A Python script to analyze DNA sequences, with visualization and basic statistical analysis.</p>
+                <a href="https://github.com/YonathanTAbebe" class="button">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section fade-in">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>If you'd like to connect, feel free to reach out!</p>
+            <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="button">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Yonathan. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
